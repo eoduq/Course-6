@@ -475,7 +475,7 @@ int main(int argc, const char * argv[]) {
      a와 b가 서로소이면 역원이 존재하므로 역원 출력
      그렇지 않으면 "a mod b has no multiplicative inverse"
      */
-    if(!strncpy(Is_Coprime,r0->bitnum,128)){
+    if(!strncmp(Is_Coprime,r0->bitnum,128)){
         PrintHex(t0);
     }
     else{
